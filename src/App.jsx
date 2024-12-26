@@ -12,7 +12,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import STATE from './Components/State/STATE'
 import Conditional_Rendaring from './Conditional_Rendaring/Index'
 import Event_Handler_Class from './Components/Event_Handler_Class'
-import Event_Binding from './Components/Event_Binding/Index'
+import Hooks_UseState1 from './Components/Hooks_UseState/index1'
+import Hooks_UseState2 from './Components/Hooks_UseState/index2'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,7 +35,9 @@ function App() {
        <Conditional_Rendaring/>
        {/* Event handle by class component */}
        <Event_Handler_Class/>
-      
+      {/* hooks use state */}
+      <Hooks_UseState1 />
+      <Hooks_UseState2 />
     </>
   )
 }
