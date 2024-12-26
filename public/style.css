@@ -1,0 +1,53 @@
+/* default div size */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* heading style */
+.headingStyle{
+    background-color: red;
+    text-align: center;
+    padding: 5px;
+    color: palegreen;
+    width: 600px;
+   }
+
+   .largeText{
+    font-size: 5rem;
+   }
+
+   .card{
+    background: #ffd77f;
+    box-shadow: 2px 4px 4px gray;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 390px;
+    display: inline-block;
+    text-align: center;
+   }
+
+   .cardTitle{
+    text-align: center;
+    margin-bottom: 5px;
+   }
+
+   .cardDescription{
+    text-align: justify;
+    margin-bottom: 5px;
+   }
+   .cardFooter{
+    text-align: center;
+    font-weight: bold;
+   }
+   .cardHeader{
+    background-color: aquamarine;
+    text-align: center;
+   }
+
+   .icon{
+    font-size: 3rem;
+    color:orange;
+    margin: 2rem;
+   }
