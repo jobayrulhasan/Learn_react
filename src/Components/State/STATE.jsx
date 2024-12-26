@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class STATE extends Component {
 
     /**
-     *
+     state make korta hole first a constructor make korta hobe
      */
     constructor(props) {
         super(props);
